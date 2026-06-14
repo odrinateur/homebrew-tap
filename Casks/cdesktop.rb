@@ -1,13 +1,13 @@
 cask "cdesktop" do
-  version "1.0.1"
+  version "1.1.0"
 
   on_arm do
-    url "https://github.com/odrinateur/cdesktop/releases/download/v1.0.1/cdesktop-#{version}-macos-arm64.dmg"
-    sha256 "caa202b487d7047c941de9a3b8c9616fcab5d55d043af516672d6a9e29f2adb8"
+    url "https://github.com/odrinateur/cdesktop/releases/download/v1.1.0/cdesktop-#{version}-macos-arm64.dmg"
+    sha256 "ad85d5641a2f05de7dea42177cbef8ac7b16245aee5b3a45be0d6f1e9a3f0c2f"
   end
   on_intel do
-    url "https://github.com/odrinateur/cdesktop/releases/download/v1.0.1/cdesktop-#{version}-macos-x64.dmg"
-    sha256 "3d75ed94b83257560ed5c9c041acdee2995bfa378cbf5b342e7172df814115ff"
+    url "https://github.com/odrinateur/cdesktop/releases/download/v1.1.0/cdesktop-#{version}-macos-x64.dmg"
+    sha256 "16f2169b804a18ce0347afee239d4e3e89896ab78a029470904c0df2e1826350"
   end
 
   name "cdesktop"
