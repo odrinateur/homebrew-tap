@@ -2,15 +2,15 @@ class Cdesktop < Formula
   desc "Coding-session desktop CLI"
   homepage "https://github.com/odrinateur/cdesktop"
   license "Apache-2.0"
-  version "1.1.0"
+  version "1.2.0"
 
   on_arm do
-    url "https://github.com/odrinateur/cdesktop/releases/download/v1.1.0/cdesktop-#{version}-macos-arm64.tgz"
-    sha256 "a7406100382fbee69d795204836e510fe77853193a8e6726f23bdab7f8f0c8c2"
+    url "https://github.com/odrinateur/cdesktop/releases/download/v1.2.0/cdesktop-#{version}-macos-arm64.tgz"
+    sha256 "26de09cadfa0698ce8abef1977353ffc6c43f8594db67d069bfe89922ca9b019"
   end
   on_intel do
-    url "https://github.com/odrinateur/cdesktop/releases/download/v1.1.0/cdesktop-#{version}-macos-x64.tgz"
-    sha256 "87c889f6a14c9efbe3976d2e0355ee92228318465b790c2c59d7e3fee27f90eb"
+    url "https://github.com/odrinateur/cdesktop/releases/download/v1.2.0/cdesktop-#{version}-macos-x64.tgz"
+    sha256 "024375c00f138fe43e747a0cc70c77c9e2ea66652429b391a6fb3a1cd0950446"
   end
 
   depends_on "node"
