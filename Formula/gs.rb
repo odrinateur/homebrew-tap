@@ -5,28 +5,28 @@
 class Gs < Formula
   desc "Safely prune local branches and sync with upstream"
   homepage "https://github.com/odrinateur/git-sweep-pro"
-  version "0.4.0"
+  version "0.4.1"
   license "GPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/odrinateur/git-sweep-pro/releases/download/v0.4.0/gs-darwin-arm64.tar.gz"
-      sha256 "cba5e09a3a2cbbc55c73f8bc92f04cdad22f977507765e0393111674888d03ad"
+      url "https://github.com/odrinateur/git-sweep-pro/releases/download/v0.4.1/gs-darwin-arm64.tar.gz"
+      sha256 "f2bbd02dc1384595041efedf415acce69919768c0695281b693d9234de01c169"
     end
     on_intel do
-      url "https://github.com/odrinateur/git-sweep-pro/releases/download/v0.4.0/gs-darwin-x64.tar.gz"
-      sha256 "7b00113b5e0a955cd0c9014df1de44051eedecf7d07a1a586199dac6a6c3f3fa"
+      url "https://github.com/odrinateur/git-sweep-pro/releases/download/v0.4.1/gs-darwin-x64.tar.gz"
+      sha256 "01ac0f7c4919a774572901f2e9b0908a22647e55db75c68d0687bcd4b566002f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/odrinateur/git-sweep-pro/releases/download/v0.4.0/gs-linux-arm64.tar.gz"
-      sha256 "f066eec432c56270dbfd0268c3669e99fa675b7d34b7415e8d625bcf10fcb5c1"
+      url "https://github.com/odrinateur/git-sweep-pro/releases/download/v0.4.1/gs-linux-arm64.tar.gz"
+      sha256 "2fc694d2bd242ef9b4226e090c1c697156efbea506c75dfa9b5e9647cfef07c1"
     end
     on_intel do
-      url "https://github.com/odrinateur/git-sweep-pro/releases/download/v0.4.0/gs-linux-x64.tar.gz"
-      sha256 "cc06e6533d2d111c90a436b35129b0b096cd7114dfb867e3d1947c8191fa278b"
+      url "https://github.com/odrinateur/git-sweep-pro/releases/download/v0.4.1/gs-linux-x64.tar.gz"
+      sha256 "42f2cb14686c683fbf52c3b81196fab509a90960dddbc5f145a70bb95d1c1663"
     end
   end
 
@@ -35,6 +35,6 @@ class Gs < Formula
   end
 
   test do
-    assert_match "0.4.0", shell_output("#{bin}/gs --version")
+    assert_match "0.4.1", shell_output("#{bin}/gs --version")
   end
 end
